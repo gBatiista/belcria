@@ -16,6 +16,9 @@ body {
 
   /* background-color: rgb(158, 129, 185); */
   font-family: "Nunito Sans";
+
+
+  margin-bottom: 25rem;
 }
 
 .wrapper {
@@ -107,39 +110,59 @@ header a {
   width: fit-content;
 }
 
-/* ============= MAIN ============= */
+/* ============= WHY US ============= */
 
 .man-yellow {
   margin-top: 7.3rem;
 }
 
-main h2 {
+main .whyUs h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 5.4rem;
-    color: white;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  color: white;
 
-    margin-top: 10.3rem;
-
+  margin-top: 10.3rem;
 }
 
-main p {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    opacity: 0.7;
-    color: white;
+main .whyUs p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  opacity: 0.7;
+  color: white;
 
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
-main img {
-    margin-top: 5rem;
+main .whyUs img {
+  margin-top: 5rem;
 }
 
-main .svg-triangle {
-    margin-top: 6rem;
+main .whyUs .svg-triangle {
+  margin-top: 6rem;
 }
 
 /* ============= SERVICES ============= */
+
+main .services h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  color: white;
+}
+
+main .services .svg-plus {
+    margin-left: 31.8rem;
+
+}
+
+main .services-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 7.8rem;
+}
