@@ -31,12 +31,15 @@ nav {
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 3.4rem;
+  background-color: #19191b;
 
   display: flex;
   position: fixed;
   top: 0;
   width: 100vw;
   height: 7.5rem;
+
+  z-index: 10;
 }
 
 nav .wrapper {
@@ -48,11 +51,11 @@ nav .wrapper {
 nav .logo {
   text-decoration: none;
   color: white;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
 }
 
 nav button {
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
   border: none;
   background: none;
   cursor: pointer;
@@ -60,7 +63,7 @@ nav button {
 
 /* ============= HEADER ============= */
 header {
-  margin-top: 15rem;
+  margin-top: 11rem;
 }
 
 header h1 {
