@@ -109,3 +109,34 @@ header a {
 .man-yellow {
   margin-top: 7.3rem;
 }
+
+main h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: white;
+
+    margin-top: 10.3rem;
+
+}
+
+main p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.7;
+    color: white;
+
+    margin-top: 3rem;
+}
+
+main img {
+    margin-top: 5rem;
+}
+
+main .svg-triangle {
+    margin-top: 6rem;
+}
+
+/* ============= SERVICES ============= */
