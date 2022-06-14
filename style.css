@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   width: min(50rem, 100%);
   margin-inline: auto;
@@ -28,8 +28,6 @@ body {
 
 /* ============= NAVIGATION ============= */
 nav {
-  border: 1px solid blue;
-
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 3.4rem;
@@ -50,9 +48,11 @@ nav .wrapper {
 nav .logo {
   text-decoration: none;
   color: white;
+  padding-top: 4rem;
 }
 
 nav button {
+  padding-top: 4rem;
   border: none;
   background: none;
   cursor: pointer;
@@ -86,8 +86,6 @@ header p {
 }
 
 header a {
-  border: 1px solid green;
-
   background-color: #5454d4;
   text-decoration: none;
 
@@ -106,8 +104,8 @@ header a {
   width: fit-content;
 }
 
-/* ============= HEADER ============= */
+/* ============= MAIN ============= */
 
-
-
-
+.man-yellow {
+  margin-top: 7.3rem;
+}
