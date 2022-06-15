@@ -184,3 +184,7 @@ main .services-options p {
   margin-top: 2rem;
   margin-bottom: 12rem;
 }
+
+main .services-options p.lastService {
+  margin-bottom: 7rem;
+}
